@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vue 高级 | 精讲</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    
+    <meta name="description" content="Welcome">
+    
+    <link rel="preload" href="/study/assets/css/0.styles.13d4809e.css" as="style"><link rel="preload" href="/study/assets/js/app.979b6aca.js" as="script"><link rel="preload" href="/study/assets/js/2.3dc1b8de.js" as="script"><link rel="preload" href="/study/assets/js/1.54be531d.js" as="script"><link rel="preload" href="/study/assets/js/32.bf41a702.js" as="script"><link rel="prefetch" href="/study/assets/js/10.563984b0.js"><link rel="prefetch" href="/study/assets/js/11.c389195a.js"><link rel="prefetch" href="/study/assets/js/12.81539b0f.js"><link rel="prefetch" href="/study/assets/js/13.4d4410c4.js"><link rel="prefetch" href="/study/assets/js/14.37ef2a72.js"><link rel="prefetch" href="/study/assets/js/15.5542c093.js"><link rel="prefetch" href="/study/assets/js/16.d48fd1ce.js"><link rel="prefetch" href="/study/assets/js/17.bd8d538c.js"><link rel="prefetch" href="/study/assets/js/18.6d3b94c1.js"><link rel="prefetch" href="/study/assets/js/19.eb35cfee.js"><link rel="prefetch" href="/study/assets/js/20.7d8a0e52.js"><link rel="prefetch" href="/study/assets/js/21.db1b5d88.js"><link rel="prefetch" href="/study/assets/js/22.7714be7b.js"><link rel="prefetch" href="/study/assets/js/23.e4f48f95.js"><link rel="prefetch" href="/study/assets/js/24.2df53c13.js"><link rel="prefetch" href="/study/assets/js/25.1c5df345.js"><link rel="prefetch" href="/study/assets/js/26.b0217af6.js"><link rel="prefetch" href="/study/assets/js/27.4032cc92.js"><link rel="prefetch" href="/study/assets/js/28.9dc78251.js"><link rel="prefetch" href="/study/assets/js/29.511c7164.js"><link rel="prefetch" href="/study/assets/js/3.5322f14a.js"><link rel="prefetch" href="/study/assets/js/30.7c09ffb0.js"><link rel="prefetch" href="/study/assets/js/31.054ebbec.js"><link rel="prefetch" href="/study/assets/js/4.84e1e480.js"><link rel="prefetch" href="/study/assets/js/5.f0541060.js"><link rel="prefetch" href="/study/assets/js/6.dfb06aa0.js"><link rel="prefetch" href="/study/assets/js/7.7551a9fb.js"><link rel="prefetch" href="/study/assets/js/vendors~docsearch.5e19b665.js">
+    <link rel="stylesheet" href="/study/assets/css/0.styles.13d4809e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/study/" class="home-link router-link-active"><!----> <span class="site-name">精讲</span></a> <div class="links"><!----> <nav class="nav-links can-hide"><div class="nav-item"><a href="/study/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/study/html+css/" class="nav-link">
+  HTML+CSS
+</a></div><div class="nav-item"><a href="/study/javascript/" class="nav-link">
+  JavaScript
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Vue" class="dropdown-title"><span class="title">Vue</span> <span class="arrow down"></span></button> <button type="button" aria-label="Vue" class="mobile-dropdown-title"><span class="title">Vue</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/vue/vue.html" class="nav-link">
+  Vue基础
+</a></li><li class="dropdown-item"><!----> <a href="/study/vue/vuePro.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Vue高级
+</a></li><li class="dropdown-item"><!----> <a href="/study/vue/communication.html" class="nav-link">
+  Vue组件通讯
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="源码" class="dropdown-title"><span class="title">源码</span> <span class="arrow down"></span></button> <button type="button" aria-label="源码" class="mobile-dropdown-title"><span class="title">源码</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/sourceCode/keep-alive.html" class="nav-link">
+  keep-alive
+</a></li><li class="dropdown-item"><!----> <a href="/study/sourceCode/nextTick.html" class="nav-link">
+  nextTick
+</a></li><li class="dropdown-item"><!----> <a href="/study/sourceCode/reactive.html" class="nav-link">
+  响应式原理
+</a></li></ul></div></div><div class="nav-item"><a href="/study/server/" class="nav-link">
+  服务端
+</a></div><div class="nav-item"><a href="/study/engineering/" class="nav-link">
+  工程化
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/study/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/study/html+css/" class="nav-link">
+  HTML+CSS
+</a></div><div class="nav-item"><a href="/study/javascript/" class="nav-link">
+  JavaScript
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Vue" class="dropdown-title"><span class="title">Vue</span> <span class="arrow down"></span></button> <button type="button" aria-label="Vue" class="mobile-dropdown-title"><span class="title">Vue</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/vue/vue.html" class="nav-link">
+  Vue基础
+</a></li><li class="dropdown-item"><!----> <a href="/study/vue/vuePro.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Vue高级
+</a></li><li class="dropdown-item"><!----> <a href="/study/vue/communication.html" class="nav-link">
+  Vue组件通讯
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="源码" class="dropdown-title"><span class="title">源码</span> <span class="arrow down"></span></button> <button type="button" aria-label="源码" class="mobile-dropdown-title"><span class="title">源码</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/sourceCode/keep-alive.html" class="nav-link">
+  keep-alive
+</a></li><li class="dropdown-item"><!----> <a href="/study/sourceCode/nextTick.html" class="nav-link">
+  nextTick
+</a></li><li class="dropdown-item"><!----> <a href="/study/sourceCode/reactive.html" class="nav-link">
+  响应式原理
+</a></li></ul></div></div><div class="nav-item"><a href="/study/server/" class="nav-link">
+  服务端
+</a></div><div class="nav-item"><a href="/study/engineering/" class="nav-link">
+  工程化
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Vue 高级</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/study/vue/vuePro.html#_1-vue2-和-vue3-的区别" class="sidebar-link">1. vue2 和 vue3 的区别</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#_1-1-生命周期不一样" class="sidebar-link">1.1 生命周期不一样</a></li><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#_1-2-组件通信不一样" class="sidebar-link">1.2 组件通信不一样</a></li><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#_1-3-指令不一样" class="sidebar-link">1.3 指令不一样</a></li><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#_1-4-开发模式不一样" class="sidebar-link">1.4 开发模式不一样</a></li><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#_1-5-响应式原理不一样" class="sidebar-link">1.5 响应式原理不一样</a></li><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#_1-6-diff-算法原理不一样" class="sidebar-link">1.6 Diff 算法原理不一样</a></li><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#_1-7-其他区别" class="sidebar-link">1.7 其他区别</a></li></ul></li><li><a href="/study/vue/vuePro.html#_2-vuex-和-pinia-的区别" class="sidebar-link">2. Vuex 和 Pinia 的区别</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#创建主模块" class="sidebar-link">创建主模块</a></li><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#定义数据" class="sidebar-link">定义数据</a></li><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#使用数据" class="sidebar-link">使用数据</a></li><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#面试题" class="sidebar-link">面试题</a></li></ul></li><li><a href="/study/vue/vuePro.html#_3-ref-和-reactive-的区别" class="sidebar-link">3. ref 和 reactive 的区别</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/study/vue/vuePro.html#_4-vue-router" class="sidebar-link">4. Vue Router</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#_4-1-概念" class="sidebar-link">4.1. 概念</a></li><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#_4-2-路由模式" class="sidebar-link">4.2. 路由模式</a></li><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#_4-3-基本使用" class="sidebar-link">4.3. 基本使用</a></li><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#_4-4-路由跳转方式" class="sidebar-link">4.4. 路由跳转方式</a></li><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#_4-5-路由传参" class="sidebar-link">4.5. 路由传参</a></li><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#_4-6-路由导航守卫" class="sidebar-link">4.6. 路由导航守卫</a></li><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#_4-7-路由懒加载" class="sidebar-link">4.7. 路由懒加载</a></li><li class="sidebar-sub-header"><a href="/study/vue/vuePro.html#_5-is-的使用场景" class="sidebar-link">5. is 的使用场景</a></li></ul></li><li><a href="/study/vue/vuePro.html#_6-其他知识点" class="sidebar-link">6. 其他知识点</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="vue-高级"><a href="#vue-高级" class="header-anchor">#</a> Vue 高级</h1> <h2 id="_1-vue2-和-vue3-的区别"><a href="#_1-vue2-和-vue3-的区别" class="header-anchor">#</a> 1. vue2 和 vue3 的区别</h2> <h3 id="_1-1-生命周期不一样"><a href="#_1-1-生命周期不一样" class="header-anchor">#</a> 1.1 生命周期不一样</h3> <ul><li>卸载阶段
+<ul><li>vue2 beforeDestroy destroyed</li> <li>vue3(选项式) beforeUnmount unmounted</li> <li>vue3(组合式) onBeforeUnmount onUnmounted</li></ul></li></ul> <h3 id="_1-2-组件通信不一样"><a href="#_1-2-组件通信不一样" class="header-anchor">#</a> 1.2 组件通信不一样</h3> <h3 id="_1-3-指令不一样"><a href="#_1-3-指令不一样" class="header-anchor">#</a> 1.3 指令不一样</h3> <ol><li>v-for 和 v-if 的优先级不同
+<ul><li>vue2 v-for 优先级高</li> <li>vue3 v-if 优先级高</li></ul></li> <li>新增指令：v-memo 用来缓存 DOM 元素</li> <li>删除 v-bind:xxx.sync 修饰符，合并到 v-model</li> <li>v-model在vue2中绑定给组件时，默认为自定义事件，需要加.native切换为原生事件，vue3默认为原生事件，使用 defineEmits 注册自定义事件</li></ol> <h3 id="_1-4-开发模式不一样"><a href="#_1-4-开发模式不一样" class="header-anchor">#</a> 1.4 开发模式不一样</h3> <ul><li>vue2 只有选项式</li> <li>vue3 既可以使用选项式，也可以使用组合式</li></ul> <h3 id="_1-5-响应式原理不一样"><a href="#_1-5-响应式原理不一样" class="header-anchor">#</a> 1.5 响应式原理不一样</h3> <ul><li>vue2 通过 defineProperty 实现的响应式</li> <li>vue3 通过 Proxy 实现的响应式</li></ul> <h3 id="_1-6-diff-算法原理不一样"><a href="#_1-6-diff-算法原理不一样" class="header-anchor">#</a> 1.6 Diff 算法原理不一样</h3> <ul><li>vue2 比较相同层级子节点时，从两端到中间遍历</li> <li>vue3 比较相同层级子节点时，求最长重复子序列，然后再比较</li></ul> <h3 id="_1-7-其他区别"><a href="#_1-7-其他区别" class="header-anchor">#</a> 1.7 其他区别</h3> <ul><li>自定义指令语法不一样，生命周期不同</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// vue2</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">power</span><span class="token punctuation">(</span><span class="token parameter">Vue<span class="token punctuation">,</span> options</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    Vue<span class="token punctuation">.</span><span class="token function">directive</span><span class="token punctuation">(</span><span class="token string">'power'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+        <span class="token function">bind</span><span class="token punctuation">(</span><span class="token parameter">el<span class="token punctuation">,</span> binding<span class="token punctuation">,</span> vnode<span class="token punctuation">,</span> oldVnode</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>power<span class="token punctuation">)</span>
+
+<span class="token comment">// vue3</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">power</span><span class="token punctuation">(</span><span class="token parameter">app<span class="token punctuation">,</span> options</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    app<span class="token punctuation">.</span><span class="token function">directive</span><span class="token punctuation">(</span><span class="token string">'power'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+        <span class="token function">mounted</span><span class="token punctuation">(</span><span class="token parameter">el<span class="token punctuation">,</span> binding<span class="token punctuation">,</span> vnode<span class="token punctuation">,</span> oldVnode</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>power<span class="token punctuation">)</span>
+</code></pre></div><ul><li>全局配置的方式不一样</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// vue2</span>
+Vue<span class="token punctuation">.</span>config<span class="token punctuation">.</span>productionTip <span class="token operator">=</span> <span class="token boolean">false</span>
+
+<span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  router<span class="token punctuation">,</span>
+  store<span class="token punctuation">,</span>
+  <span class="token function-variable function">render</span><span class="token operator">:</span> <span class="token parameter">h</span> <span class="token operator">=&gt;</span> <span class="token function">h</span><span class="token punctuation">(</span>App<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">$mount</span><span class="token punctuation">(</span><span class="token string">'#app'</span><span class="token punctuation">)</span>
+
+<span class="token comment">// vue3</span>
+app<span class="token punctuation">.</span>config<span class="token punctuation">.</span>warnHandler <span class="token operator">=</span> <span class="token boolean">false</span>
+
+<span class="token keyword">const</span> app <span class="token operator">=</span> <span class="token function">createApp</span><span class="token punctuation">(</span>App<span class="token punctuation">)</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token function">createPinia</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>router<span class="token punctuation">)</span>
+app<span class="token punctuation">.</span><span class="token function">mount</span><span class="token punctuation">(</span><span class="token string">'#app'</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="_2-vuex-和-pinia-的区别"><a href="#_2-vuex-和-pinia-的区别" class="header-anchor">#</a> 2. Vuex 和 Pinia 的区别</h2> <p>相同点：集中式状态管理工具，用于管理多个组件共享的状态数据</p> <ul><li>vuex的核心概念一共是6个： state  mutations  actions getters modules plugins</li></ul> <table><thead><tr><th></th> <th>Vuex</th> <th>Pinia</th></tr></thead> <tbody><tr><td>注入vm实例</td> <td>Vue.use(Vuex)</td> <td>app.use(createPinia())</td></tr> <tr><td>创建模块</td> <td>new Vuex.Store()</td> <td>defineStore('app', {})</td></tr> <tr><td>汇总</td> <td>modules: {}，子模块需要开启命名空间</td> <td>不需要汇总</td></tr> <tr><td>mutations</td> <td>同步修改数据</td> <td>没有mutations</td></tr></tbody></table> <h3 id="创建主模块"><a href="#创建主模块" class="header-anchor">#</a> 创建主模块</h3> <blockquote><p>Vuex 的子模块需要在主模块汇总，后续通过 $store 与 Vuex 交互，不用在组件中导入 <code>子模块</code></p> <p>Pinia 不需要汇总，直接导入 <code>子模块</code> 使用</p></blockquote> <ul><li>vuex创建主模块</li></ul> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">import</span> Vue <span class="token keyword">from</span> <span class="token string">&quot;vue&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Vuex <span class="token keyword">from</span> <span class="token string">&quot;vuex&quot;</span>
+
+Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>Vuex<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> home <span class="token keyword">from</span> <span class="token string">&quot;./modules/home&quot;</span>
+<span class="token keyword">import</span> search <span class="token keyword">from</span> <span class="token string">&quot;./modules/search&quot;</span>
+<span class="token keyword">import</span> user <span class="token keyword">from</span> <span class="token string">&quot;./modules/user&quot;</span>
+<span class="token comment">// 需要在主模块汇总</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">new</span> <span class="token class-name">Vuex</span><span class="token punctuation">.</span><span class="token function">Store</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    modules<span class="token operator">:</span><span class="token punctuation">{</span>
+        home<span class="token punctuation">,</span>
+        search<span class="token punctuation">,</span>
+        user
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><ul><li>Pinia创建主模块</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> createPinia <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'pinia'</span>
+<span class="token keyword">const</span> pinia <span class="token operator">=</span> <span class="token function">createPinia</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> pinia
+
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>pinia<span class="token punctuation">)</span>
+</code></pre></div><h3 id="定义数据"><a href="#定义数据" class="header-anchor">#</a> 定义数据</h3> <ul><li>vuex</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">new</span> <span class="token class-name">Vuex<span class="token punctuation">.</span>Store</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token literal-property property">namespaced</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">state</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">msg</span><span class="token operator">:</span> <span class="token string">'Vuex'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">getters</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">mutations</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">actions</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><ul><li>Pinia</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> defineStore <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'pinia'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">const</span> useAppStore <span class="token operator">=</span> <span class="token function">defineStore</span><span class="token punctuation">(</span><span class="token string">'app'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token function-variable function">state</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+        <span class="token literal-property property">msg</span><span class="token operator">:</span> <span class="token string">&quot;Pinia&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">actions</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">getters</span><span class="token operator">:</span><span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="使用数据"><a href="#使用数据" class="header-anchor">#</a> 使用数据</h3> <ul><li>vuex</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 通过this直接读取</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span>$store<span class="token punctuation">.</span>state<span class="token punctuation">.</span>模块名称<span class="token punctuation">.</span>数据名称<span class="token punctuation">;</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span>$store<span class="token punctuation">.</span>getters<span class="token punctuation">[</span><span class="token string">&quot;模块名称/数据名称&quot;</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token comment">// 通过mapXxx函数映射，再读取</span>
+<span class="token literal-property property">computed</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token operator">...</span><span class="token function">mapState</span><span class="token punctuation">(</span><span class="token string">'模块名称'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'数据名称'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token operator">...</span><span class="token function">mapGetters</span><span class="token punctuation">(</span><span class="token string">'模块名称'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'数据名称'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span>数据名称
+
+<span class="token comment">// 通过this直接触发</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span>$store<span class="token punctuation">.</span><span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token string">&quot;模块名称/函数名称&quot;</span><span class="token punctuation">,</span> 数据<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span>$store<span class="token punctuation">.</span><span class="token function">commit</span><span class="token punctuation">(</span><span class="token string">&quot;模块名称/函数名称&quot;</span><span class="token punctuation">,</span> 数据<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 通过mapXxx函数映射，再触发</span>
+<span class="token literal-property property">methods</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token operator">...</span><span class="token function">mapActions</span><span class="token punctuation">(</span><span class="token string">'模块名称'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'函数名称'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token operator">...</span><span class="token function">mapMutations</span><span class="token punctuation">(</span><span class="token string">'模块名称'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'函数名称'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">函数名称</span><span class="token punctuation">(</span>数据<span class="token punctuation">)</span>
+</code></pre></div><ul><li>Pinia</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> useXxxStore <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;./xxx&quot;</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 实例化子模块 </span>
+<span class="token keyword">const</span> xxxStore <span class="token operator">=</span> <span class="token function">useXxxStore</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 读取数据</span>
+xxxStore<span class="token punctuation">.</span>xxx<span class="token punctuation">;</span>
+<span class="token comment">// 调用方法</span>
+xxxStore<span class="token punctuation">.</span><span class="token function">xxx</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 更新</span>
+<span class="token comment">// 1. 直接更新数据</span>
+xxxStore<span class="token punctuation">.</span>xxx<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token comment">// 2. 直接更新多个数据</span>
+xxxStore<span class="token punctuation">.</span><span class="token function">$patch</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token literal-property property">xxx</span><span class="token operator">:</span> xxx<span class="token punctuation">,</span>
+  <span class="token literal-property property">yyy</span><span class="token operator">:</span> yyy<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 直接解构会失去响应式，需要使用 storeToRefs 保留响应式</span>
+<span class="token keyword">const</span> <span class="token punctuation">{</span> xxx<span class="token punctuation">,</span> yyy <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">storeToRefs</span><span class="token punctuation">(</span>xxxStore<span class="token punctuation">)</span>
+</code></pre></div><h3 id="面试题"><a href="#面试题" class="header-anchor">#</a> 面试题</h3> <h4 id="问题1-vuex中的mutation可以执行异步操作吗"><a href="#问题1-vuex中的mutation可以执行异步操作吗" class="header-anchor">#</a> 问题1: vuex中的mutation可以执行异步操作吗?</h4> <ul><li>功能可以 ==&gt; 异步更新数据后界面确实会自动更新</li> <li>问题 ==&gt; vuex的调试工具监视不到mutation中的异步更新, 工具记录还是更新前的数据(不对)</li> <li>扩展: 工具如何记录数据变化? ==&gt; 每次mutation函数执行完后, 立即记录当前的数据   ==&gt; 在mutation中同步更新state, 才能被记录到</li></ul> <h4 id="问题2-vuex中的状态数据的响应式的原理"><a href="#问题2-vuex中的状态数据的响应式的原理" class="header-anchor">#</a> 问题2: vuex中的状态数据的响应式的原理?</h4> <ol><li>创建了一个vm对象</li> <li>state中的数据都是vm的data数据(是响应式的)</li> <li>组件中读取的state数据本质读取的就是data中的数据</li> <li>一旦更新了state中的数据, 所有用到这个数据的组件就会自动更新</li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+	<span class="token literal-property property">data</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">home</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token literal-property property">categoryList</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token literal-property property">xxx</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">user</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token literal-property property">userInfo</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h4 id="问题3-vuex数据刷新丢失的问题"><a href="#问题3-vuex数据刷新丢失的问题" class="header-anchor">#</a> 问题3: vuex数据刷新丢失的问题</h4> <ul><li>绑定事件监听: 在卸载前保存当前数据</li></ul> <div class="language-js extra-class"><pre class="language-js"><code>window<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'beforeunload'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span> <span class="token comment">// 当页面刷新时, 页面卸载前的事件回调</span>
+	sessionStorage<span class="token punctuation">.</span><span class="token function">setItem</span><span class="token punctuation">(</span><span class="token string">'CART_LIST_KEY'</span><span class="token punctuation">,</span> 
+		<span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>$store<span class="token punctuation">.</span>state<span class="token punctuation">.</span>shopCart<span class="token punctuation">.</span>cartList<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+window<span class="token punctuation">.</span><span class="token function">removeEventListener</span><span class="token punctuation">(</span><span class="token string">'beforeunload'</span><span class="token punctuation">)</span>
+</code></pre></div><ul><li>在初始时读取保存数据作为状态的初始值</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token literal-property property">cartList</span><span class="token operator">:</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>sessionStorage<span class="token punctuation">.</span><span class="token function">getItem</span><span class="token punctuation">(</span><span class="token string">'CART_LIST_KEY'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">||</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+</code></pre></div><h2 id="_3-ref-和-reactive-的区别"><a href="#_3-ref-和-reactive-的区别" class="header-anchor">#</a> 3. ref 和 reactive 的区别</h2> <ol><li><p>ref 可以用来定义基本类型，reactive 只能用来定义复杂数据类型</p></li> <li><p>ref 数据通过.value 读取，模板中可以省略，reactive 可以直接操作数据</p></li> <li><p>ref 定义复杂数据类型，实际是通过 reactive 定义的</p></li> <li><p>ref 操作对象的时候，可以修改整个对象，reactive 不能整体修改对象，修改就不是响应式了</p></li> <li><p>reactive 默认是深度监听，ref 需要设置 deep 属性</p></li></ol> <h2 id="_4-vue-router"><a href="#_4-vue-router" class="header-anchor">#</a> 4. Vue Router</h2> <h3 id="_4-1-概念"><a href="#_4-1-概念" class="header-anchor">#</a> 4.1. 概念</h3> <ul><li>用来实现 Vue 的单页面应用</li> <li>单页面应用的特点
+<ul><li>整个项目只有一个完整的页面，所有的更新都是这个页面的局部渲染</li> <li>点击页面链接不会刷新整个页面，只会局部更新页面</li></ul></li></ul> <h3 id="_4-2-路由模式"><a href="#_4-2-路由模式" class="header-anchor">#</a> 4.2. 路由模式</h3> <ul><li>hash
+<ul><li>路径带# ，#后面的值不会提交到服务器</li> <li>hash 改变#后面的值，页面不会刷新</li> <li>兼容性更好，IE6+</li> <li>原理
+<ul><li>hash 通过 window.location.hash 的方式，实现路由跳转的功能。</li> <li>hash 通过 window.onhashchange 的方式，来监听 hash 的改变，借此实现无刷新跳转的功能。</li></ul></li></ul></li> <li>history
+<ul><li>路径不带#，#更加美观</li> <li>改变 url 改变的是整个 url，页面不会刷新</li> <li>兼容性较差，IE10+</li> <li>使用 history 模式，在对当前的页面进行刷新时，此时浏览器会重新发起请求，请求当前 url 对应的资源，但是单页面只打包出一个 index.html 资源，找不到当前 url 对应的资源就会返回 404。</li> <li>解决方案
+<ul><li>开发时基于 webpack 解决,devServer 配置<code>devServer: { historyApiFallback: true }</code>，找不到对应资源，返回 index.html</li> <li>线上解决方案，nginx 配置</li></ul></li> <li>原理
+<ul><li>history 通过 window.history.pushState / replaceState 等方式，实现路由跳转的功能。</li> <li>history 通过 window.onpopstate 的方式，来监听 url 的改变，借此实现无刷新跳转的功能。</li></ul></li></ul></li></ul> <h3 id="_4-3-基本使用"><a href="#_4-3-基本使用" class="header-anchor">#</a> 4.3. 基本使用</h3> <h3 id="_4-4-路由跳转方式"><a href="#_4-4-路由跳转方式" class="header-anchor">#</a> 4.4. 路由跳转方式</h3> <ul><li>声明式导航</li> <li>编程式导航</li></ul> <h3 id="_4-5-路由传参"><a href="#_4-5-路由传参" class="header-anchor">#</a> 4.5. 路由传参</h3> <ul><li>params</li> <li>query</li> <li>meta</li></ul> <h3 id="_4-6-路由导航守卫"><a href="#_4-6-路由导航守卫" class="header-anchor">#</a> 4.6. 路由导航守卫</h3> <ul><li><p>全局导航守卫</p> <ul><li>beforeEach</li> <li>beforeResolve</li> <li>afterEach</li></ul></li> <li><p>路由独享守卫</p> <ul><li>beforeEnter</li></ul></li> <li><p>组件内守卫</p> <ul><li>beforeRouterEnter</li> <li>beforeRouterUpdate</li> <li>beforeRouterLeave</li></ul></li> <li><p>next 使用方式</p> <ul><li>next()无条件放行</li> <li>next(false)不放行</li> <li>next(to)相同路由再走一遍</li> <li>next(path)指定跳转位置</li></ul></li></ul> <h3 id="_4-7-路由懒加载"><a href="#_4-7-路由懒加载" class="header-anchor">#</a> 4.7. 路由懒加载</h3> <h3 id="_5-is-的使用场景"><a href="#_5-is-的使用场景" class="header-anchor">#</a> 5. is 的使用场景</h3> <p>问：如果不用路由组件，怎么实现路由切换效果
+答：使用 动态组件</p> <p>问：怎么为路由切换添加动画</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>router-view</span> <span class="token attr-name">v-slot</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>{ Component }<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>transition</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>fade<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>keep-alive</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>component</span> <span class="token attr-name">:is</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>Component<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>keep-alive</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>transition</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>router-view</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="_6-其他知识点"><a href="#_6-其他知识点" class="header-anchor">#</a> 6. 其他知识点</h2> <p>BOM 对象 5 组成部分:window、location、history、Navigator、screen</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/study/assets/js/app.979b6aca.js" defer></script><script src="/study/assets/js/2.3dc1b8de.js" defer></script><script src="/study/assets/js/1.54be531d.js" defer></script><script src="/study/assets/js/32.bf41a702.js" defer></script>
+  </body>
+</html>
